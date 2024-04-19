@@ -26,12 +26,16 @@ const WorkplaceWellness = () => {
                                     <p>Foster a thriving, health-focused workplace.</p>
                                 </span>
                             </div>
-                            <button className="btn yellow-btn black-btn" type="submit">download now
+                            <a href='/lifecoporateBook.pdf'> <button className="btn yellow-btn black-btn" type="submit">download now
                                 <span className='home-icon'><GoArrowUpRight /></span>
                             </button>
+                            </a>
                             <p>Start shaping a healthier future for your business</p>
                         </div>
-                        <div className='col-lg-5 col-md-12 book-img'><img src={Book} alt='Book'></img></div>
+                        <div className='col-lg-5 col-md-12 book-img'>
+                          
+                            <img src={Book} alt='Book'></img>
+                        </div>
                     </div>
                 </div>
             </section>

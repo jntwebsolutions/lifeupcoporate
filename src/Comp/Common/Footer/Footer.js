@@ -22,10 +22,10 @@ const Footer = () => {
                                     moments that transform ordinary lives into extraordinary lifestyles
                                 </p>
                                 <div className='footer-social-icon'>
-                                    <i><a><FaFacebookF /></a></i>
-                                    <i><a><ImLinkedin2 /></a></i>
-                                    <i><a><GrYoutube /></a></i>
-                                    <i><a><PiInstagramLogoFill /></a></i>
+                                    <i><a href='https://www.facebook.com/lifeuphealthcoaching' target='_blank'><FaFacebookF /></a></i>
+                                    <i><a href="https://www.instagram.com/_life_up_/" target='_blank'><ImLinkedin2 /></a></i>
+                                    <i><a href="https://www.youtube.com/channel/UCOQvsfoRHbXMRmzNfxreLMg" target='_blank'><GrYoutube /></a></i>
+                                    <i><a href='https://www.linkedin.com/in/derek-opperman-737467114/' target='_blank'><PiInstagramLogoFill /></a></i>
                                 </div>
                             </div>
                         </div>

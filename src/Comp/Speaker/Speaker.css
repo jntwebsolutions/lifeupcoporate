@@ -1,0 +1,137 @@
+#Speaker-page #all-banner {
+    background-image: url("../../Assests/img/SpeakerBanner.jpg");
+}
+
+.DerekSpeakerImg {
+    background-image: url("../../Assests//img/DerekSpeaker.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+section#SpeakerInner .DerekSpeakerImg .main-head {
+    color: #EBDF1B;
+    margin-bottom: 12px;
+    font-size: 37px;
+}
+
+section#SpeakerInner .DerekSpeakerImg {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+section#SpeakerInner {
+    padding: 60px 0;
+}
+
+section#SpeakerInner .DerekSpeakerImgText {
+    padding: 22px 0 22px 22px;
+}
+
+section#SpeakerInner .DerekSpeakerImg .text-desc {
+    font-size: 19px;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .main-head {
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .text-desc {
+    color: #000;
+    padding-bottom: 14px;
+    font-size: 15px;
+}
+
+section#SpeakerInner .DerekSpeakerImgText .yellow-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* SpeakerInner end */
+/* -------------------------- */
+/* DiscussionTopics start */
+#DiscussionTopics {
+    background-image: url("../../Assests//img/DiscussionTopics.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#DiscussionTopics img {
+    width: 73%;
+}
+
+#DiscussionTopics .main-head {
+    color: #EBDF1B;
+}
+
+.DiscussionTopicsText {
+    padding-right: 80px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox img {
+    width: 50px;
+}
+
+#DiscussionTopics .DiscussionTopicsText-IconBox .text-desc {
+    font-size: 18px;
+    line-height: 1.7rem;
+    padding-left: 20px;
+}
+
+/* DiscussionTopics end */
+/* ------------------------- */
+/* online strat */
+#online {
+    padding: 60px 0;
+}
+
+#online .online-top {
+    padding-top: 30px;
+}
+
+/* online end */
+/* ---------------------------- */
+#podcastConference {
+    background-color: #EBDF1B;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+.podcastConferenceImg {
+    padding: 0;
+}
+
+#podcastConference .podcastConferenceImg img {
+    margin-top: -60px;
+    height: 550px;
+    object-fit: cover;
+}
+
+#podcastConference .podcastConferenceImgtext {
+    padding-right: 150px;
+    padding-left: 30px;
+    padding: 33px 150px 0 30px;
+}
+
+#podcastConference .podcastConferenceImgtext .main-head {
+    margin-bottom: 13px;
+    font-size: 40px;
+}
+
+#podcastConference .podcastConferenceImgtext .text-desc {
+    color: #000;
+    padding-bottom: 17px;
+}
+#Speaker-page #videoTesti {
+    margin-top:0px;
+}

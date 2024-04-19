@@ -32,13 +32,13 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div className='topcontactsociallinks'>
-                        <a href='#' className='navbar-top-link'><TfiFacebook />
+                        <a href='https://www.facebook.com/lifeuphealthcoaching' target='_blank' className='navbar-top-link'><TfiFacebook />
                         </a>
-                        <a href='#' className='navbar-top-link'><TfiLinkedin />
+                        <a href='https://www.instagram.com/_life_up_/' target='_blank' className='navbar-top-link'><TfiLinkedin />
                         </a>
-                        <a href='#' className='navbar-top-link'><BsYoutube />
+                        <a href='https://www.youtube.com/channel/UCOQvsfoRHbXMRmzNfxreLMg' target='_blank' className='navbar-top-link'><BsYoutube />
                         </a>
-                        <a href='#' className='navbar-top-link'><AiFillInstagram />
+                        <a href='https://www.linkedin.com/in/derek-opperman-737467114/' target='_blank' className='navbar-top-link'><AiFillInstagram />
                         </a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div id='navbar'>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container navbar-inner">
-                        <div className='navbar-logo'><a class="navbar-brand" href="#"><img src={logo} alt='logo'></img></a></div>
+                        <div className='navbar-logo'><a class="navbar-brand" href="/"><img src={logo} alt='logo'></img></a></div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -73,7 +73,9 @@ const Navbar = () => {
                                     <Link to="/contact">Contact</Link>
                                 </li>
                             </ul>
-                            <button class="btn yellow-btn" type="submit">schedule a call</button>
+                            <a href='/contact'>
+                                <button class="btn yellow-btn" type="submit">schedule a call</button>
+                            </a>
                         </div>
                     </div>
 

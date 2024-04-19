@@ -17,7 +17,7 @@ import blog1 from "../../Assests/img/blog1.jpg";
 import Testimonial from "../../Comp/Common/Testimonial/Testimonial";
 import WorkplaceWellness from "../Common/WorkplaceWellness/WorkplaceWellness";
 import ContactForm from "../Common/ContactForm/ContactForm";
-import OwlCarousel from 'react-owl-carousel';
+import VideoTestimonial from '../Common/VideoTestimonial/VideoTestimonial';
 import "./Home.css";
 const Home = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -63,47 +63,7 @@ const Home = () => {
             {/* logo-grp end */}
             {/* ------------------------------ */}
             {/* video-section start */}
-            <section id='video-section'>
-                <div className='container-fluid'>
-                    <div className='row'>
-                        <div className='col-md-12 col-lg-8 video-section-inner'>
-                            <div className='video-section-inner-text'>
-                                <div className="container">
-                                    <button className="VideoImg" onClick={() => openModal('638399892')}><img src={VideoImg} alt='VideoImg'></img></button>
-
-                                    {modalOpen && (
-                                        <div className="modal-overlay" onClick={closeModal}>
-                                            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                                                <span className="modal-close" onClick={closeModal}>&times;</span>
-                                                <iframe
-                                                    src={`https://player.vimeo.com/video/${videoId}`}
-                                                    // width="800"
-                                                    // height="515"
-                                                    frameborder="0"
-                                                    allow="autoplay; fullscreen"
-                                                    allowfullscreen
-                                                ></iframe>
-                                            </div>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-md-12 col-lg-4 video-black-section'>
-                            <div className='video-black-section-inner'>
-                                <img src={footerLogo} alt='footerLogo'>
-                                </img>
-                                <h4 className='h4-head'>LifeUP's <span className='yellow-txt'>Healthy Habits </span> for the Busy Business Program</h4>
-                                <p className='text-desc'>is a transformational, research-backed, comprehensive curriculum delivered in person, online, or in a hybrid framework.
-                                    (Watch the two-minute video below to learn more...)</p>
-                                <a href='https://vimeo.com/638399892?share=copy' target='_blank'><button className="btn transparent-btn" type="submit">watch video
-                                    <span className='home-icon'><MdOutlineSlowMotionVideo /></span>
-                                </button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <VideoTestimonial />
             {/* video-section end */}
             {/* ------------------------------ */}
             {/* number-counter start */}
@@ -276,103 +236,7 @@ const Home = () => {
             {/* Solutions end */}
             {/* --------------------------- */}
             {/* video testimonial start */}
-            <section id='videoTesti'>
-                <div className='container'>
-                    <div className='row'>
-                        <h4 class="h4-head main-head">Video Testimonials</h4>
-                        <OwlCarousel className='owl-theme' loop margin={30} items={3} navs={true} responsive={{
-                            0: {
-                                items: 1 // Number of items to show on small screens (width < 600px)
-                            },
-                            600: {
-                                items: 1 // Number of items to show on medium screens (600px <= width < 992px)
-                            },
-                            992: {
-                                items: 3 // Number of items to show on large screens (width >= 992px)
-                            }
-                        }}>
-                            <div class='item'>
-                                <div className='test-box'>
-                                    <h3>Chantelle N.<br></br> Baker Hughes</h3>
-                                    <div className="video-popup">
-                                        <iframe
-                                            src={`https://player.vimeo.com/video/638399892`}
-                                            // width="800"
-                                            // height="515"
-                                            frameborder="0"
-                                            allow="autoplay; fullscreen"
-                                            allowfullscreen
-                                        ></iframe>
-                                    </div>
-                                    <p class="text-desc">
-                                        Derek helped me develop my 'keystone habits. Simple practices done daily
-                                        that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
-
-                                </div>
-                            </div>
-                            <div class='item'>
-                                <div className='test-box'>
-                                    <h3>Chantelle N.<br></br> Baker Hughes</h3>
-                                    <div className="video-popup">
-                                        <iframe
-                                            src={`https://player.vimeo.com/video/638399892`}
-                                            // width="800"
-                                            // height="515"
-                                            frameborder="0"
-                                            allow="autoplay; fullscreen"
-                                            allowfullscreen
-                                        ></iframe>
-                                    </div>
-                                    <p class="text-desc">
-                                        Derek helped me develop my 'keystone habits. Simple practices done daily
-                                        that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
-
-                                </div>
-                            </div>  <div class='item'>
-                                <div className='test-box'>
-                                    <h3>Chantelle N.<br></br> Baker Hughes</h3>
-                                    <div className="video-popup">
-                                        <iframe
-                                            src={`https://player.vimeo.com/video/638399892`}
-                                            // width="800"
-                                            // height="515"
-                                            frameborder="0"
-                                            allow="autoplay; fullscreen"
-                                            allowfullscreen
-                                        ></iframe>
-                                    </div>
-                                    <p class="text-desc">
-                                        Derek helped me develop my 'keystone habits. Simple practices done daily
-                                        that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
-
-                                </div>
-                            </div>  <div class='item'>
-                                <div className='test-box'>
-                                    <h3>Chantelle N.<br></br> Baker Hughes</h3>
-                                    <div className="video-popup">
-                                        <iframe
-                                            src={`https://player.vimeo.com/video/638399892`}
-                                            // width="800"
-                                            // height="515"
-                                            frameborder="0"
-                                            allow="autoplay; fullscreen"
-                                            allowfullscreen
-                                        ></iframe>
-                                    </div>
-                                    <p class="text-desc">
-                                        Derek helped me develop my 'keystone habits. Simple practices done daily
-                                        that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
-
-                                </div>
-                            </div>
-                        </OwlCarousel>
-                    </div>
-                </div>
-            </section>
+            <VideoTestimonial />
             {/* video testimonial end */}
             {/* --------------------------- */}
             {/* blog start */}

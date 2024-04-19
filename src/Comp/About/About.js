@@ -21,14 +21,16 @@ import ScheduleCall from "../../Assests/img/scheduleLogo.png";
 import WorkplaceWellness from "../../Comp/Common/WorkplaceWellness/WorkplaceWellness";
 import ContactForm from '../../Comp/Common/ContactForm/ContactForm';
 import blog1 from "../../Assests/img/blog1.jpg";
+import TopBanner from "../../Comp/Common/TopBanner/TopBanner";
 import "./About.css";
 const About = () => {
+    const data = {
+        name: "about"
+      }
     return (
         <section className='for-top-spacing' id='about-page'>
             {/* about banner start */}
-            <section id='all-banner' className='about'>
-                <h1>About Us</h1>
-            </section>
+            <TopBanner {...data} />
             {/* about banner end */}
             {/* ----------------- */}
             {/* about start */}
@@ -319,11 +321,11 @@ const About = () => {
             <section id="scheduleCall">
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-4'><img src={ScheduleCall} alt='ScheduleCall'></img></div>
-                        <div className='col-md-8'>
+                        <div className='col-md-4 col-lg-3'><img src={ScheduleCall} alt='ScheduleCall'></img></div>
+                        <div className='col-md-8 col-lg-6'>
                             <h4 class="h4-head main-head">LifeUP Corporate Health & Wellness Looks Forward To Partnering With You.</h4>
                         </div>
-                        <div className='col-md-12'><button className="btn yellow-btn black-btn" type="submit">schedule a call
+                        <div className='col-md-12 col-lg-3'><button className="btn yellow-btn black-btn" type="submit">schedule a call
                             <span className='home-icon'><GoArrowUpRight /></span>
                         </button></div>
                     </div>
