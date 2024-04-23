@@ -13,7 +13,9 @@ import CommonServices from "../Common/CommonServices/CommonServices"
 import Solution1 from "../../Assests/img/solution1.png";
 import Solution2 from "../../Assests/img/solution2.png";
 import Faq from "../../Comp/Common/Faq/Faq";
-import blog1 from "../../Assests/img/blog1.jpg";
+import BeyondTheBasic from "../../Assests/img/BeyondTheBasics.jpg";
+import HealtyEmployess from "../../Assests/img/HealthyEmployees.webp";
+import LeapForward from "../../Assests/img/LeapForward.jpg";
 import Testimonial from "../../Comp/Common/Testimonial/Testimonial";
 import WorkplaceWellness from "../Common/WorkplaceWellness/WorkplaceWellness";
 import ContactForm from "../Common/ContactForm/ContactForm";
@@ -33,7 +35,7 @@ const Home = () => {
     };
     return (
         // banner start
-        <section className='for-top-spacing'>
+        <section className='for-top-spacing' id='home-page'>
             <section id='home' className='sm-home'>
                 <div className='container'>
                     <div className='row'>
@@ -44,7 +46,7 @@ const Home = () => {
                                     A Unique Approach <br></br>to <span className='yellow-txt'>Corporate Wellness</span></h2>
                                 <p>LifeUP Corporate Wellness designs corporate wellness programs that
                                     create the 'a-ha!' moments that transform ordinary lives into extraordinary lifestyles.</p>
-                                <a href='/contact'>
+                                <a href='https://calendly.com/lifeup-health' target='_blank' rel="noopener noreferrer">
                                     <button className="btn yellow-btn" type="submit">schedule a call
                                         <span className='home-icon'><GoArrowUpRight /></span>
                                     </button>
@@ -63,7 +65,46 @@ const Home = () => {
             {/* logo-grp end */}
             {/* ------------------------------ */}
             {/* video-section start */}
-            <VideoTestimonial />
+            <section id='video-section'>
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-md-12 col-lg-8 video-section-inner'>
+                            <div className='video-section-inner-text'>
+                                <div className="container">
+                                    <button className="VideoImg" onClick={() => openModal('638399892')}><img src={VideoImg} alt='VideoImg'></img></button>
+                                    {modalOpen && (
+                                        <div className="modal-overlay" onClick={closeModal}>
+                                            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                                                <span className="modal-close" onClick={closeModal}>&times;</span>
+                                                <iframe
+                                                    src={`https://player.vimeo.com/video/${videoId}`}
+                                                    width="800"
+                                                    height="515"
+                                                    frameborder="0"
+                                                    allow="autoplay; fullscreen"
+                                                    allowfullscreen
+                                                ></iframe>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-12 col-lg-4 video-black-section'>
+                            <div className='video-black-section-inner'>
+                                <img src={footerLogo} alt='footerLogo'>
+                                </img>
+                                <h4 className='h4-head'>LifeUP's <span className='yellow-txt'>Healthy Habits </span> for the Busy Business Program</h4>
+                                <p className='text-desc'>is a transformational, research-backed, comprehensive curriculum delivered in person, online, or in a hybrid framework.
+                                    (Watch the two-minute video below to learn more...)</p>
+                                <a href='https://vimeo.com/638399892' target='_blank'><button className="btn transparent-btn" type="submit">watch video
+                                    <span className='home-icon'><MdOutlineSlowMotionVideo /></span>
+                                </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/* video-section end */}
             {/* ------------------------------ */}
             {/* number-counter start */}
@@ -130,9 +171,10 @@ const Home = () => {
                                 Engage in our quiz section & put your expertise to the test at Quiz Zone."
                             </h4>
                             <p class="text-desc">Take Our Revealing 6-Question Quiz!</p>
-                            <button className="btn yellow-btn black-btn" type="submit">start quiz
+                            <a href='https://link.apisystem.tech/widget/survey/d6PLMmGbNVaGX3PohJQt' target='_blank'> <button className="btn yellow-btn black-btn" type="submit">start quiz
                                 <span className='home-icon'><GoArrowUpRight /></span>
                             </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -160,9 +202,11 @@ const Home = () => {
                                 <br></br><br></br>
                                 His company LifeUP’s Healthy Habits for the Busy Business program is a transformational, research-backed,
                                 comprehensive curriculum delive- red in-person, online, or in a hybrid framework.</p>
-                            <button className="btn yellow-btn" type="submit">read more
-                                <span className='home-icon'><GoArrowUpRight /></span>
-                            </button>
+                            <a href='/about'>
+                                <button className="btn yellow-btn" type="submit">read more
+                                    <span className='home-icon'><GoArrowUpRight /></span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -246,37 +290,39 @@ const Home = () => {
                         <h4 class="h4-head main-head">Latest Corporate Wellness News</h4>
                         <div className='col-md-12 col-lg-7 blog-left'>
                             <div className='zoom-img'>
-                                <img src={blog1} alt='blog1'></img>
+                                <img src={BeyondTheBasic} alt='BeyondTheBasic'></img>
                             </div>
                             <div className='blog-left-text'>
                                 <span>
-                                    <h5>April 5, 2024</h5>
-                                    <h3>Healthy Employees, Thriving Business : Unlocking the Potential of We.</h3></span>
-                                <button className='blog-circle'><GoArrowUpRight /></button>
+                                    <h5>March 22, 2024</h5>
+                                    <h3>Beyond the Basics: Unleashing Wellness Innovation in the Workplace</h3></span>
+                                <a href='https://blog.dgquick.in/beyond-the-basics-unleashing-wellness-innovation-in-the-workplace/' target='_blank'>
+                                    <button className='blog-circle'><GoArrowUpRight /></button>
+                                </a>
                             </div>
                         </div>
                         <div className='col-lg-5 col-md-12 '>
                             <div className='blog-right'>
                                 <div className='blog-right-flex'>
                                     <div className='zoom-img'>
-                                        <img src={blog1} alt='blog1'></img>
+                                        <img src={HealtyEmployess} alt='HealtyEmployess'></img>
                                     </div>
                                     <div className='left-blog-txt'>
-                                        <h5>April 5, 2024</h5>
-                                        <h3>Diabetes Alert Day: A Wake-Up Call for Employee Health</h3>
-                                        <button className='blog-circle'><GoArrowUpRight /></button>
+                                        <h5>March 22, 2024</h5>
+                                        <h3>Healthy Employees, Thriving Business: Unlocking</h3>
+                                        <a href='https://blog.dgquick.in/healthy-employees-thriving-business-unlocking-the-potential-of-wellness/' target='_blank'><button className='blog-circle'><GoArrowUpRight /></button></a>
                                     </div>
                                 </div>
                             </div>
                             <div className='blog-right padding-top'>
                                 <div className='blog-right-flex'>
                                     <div className='zoom-img'>
-                                        <img src={blog1} alt='blog1'></img>
+                                        <img src={LeapForward} alt='LeapForward'></img>
                                     </div>
                                     <div className='left-blog-txt'>
-                                        <h5>April 5, 2024</h5>
-                                        <h3>Diabetes Alert Day: A Wake-Up Call for Employee Health</h3>
-                                        <button className='blog-circle'><GoArrowUpRight /></button>
+                                        <h5>March 21, 2024</h5>
+                                        <h3>Australia’s ‘Right to Disconnect’: A Leap Forward</h3>
+                                        <a href='https://blog.dgquick.in/australia-s-right-to-disconnect-a-leap-forward-in-employee-well-being/' target='_blank'><button className='blog-circle'><GoArrowUpRight /></button></a>
                                     </div>
                                 </div>
                             </div>

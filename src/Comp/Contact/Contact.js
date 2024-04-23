@@ -42,9 +42,8 @@ const Contact = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 col-md-12 col-sm-12'>
-              <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Quis ipsum suspen- disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis</p>
+              <p class="text-desc">If you have any questions or inquiries about our Corporate Wellness Programs,
+                Please reach out so we can begin to discover what an impactful program for your team could look like.</p>
             </div>
             <div className='col-lg-4 col-md-12 col-sm-12 contactNowBtn'>
               <a href='/about'>

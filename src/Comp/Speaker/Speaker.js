@@ -48,7 +48,7 @@ const Speaker = () => {
                     His company LifeUP's Healthy Habits for the Busy Business program is a transformational, re- search-backed, comprehensive curriculum delivered in-person, online, or in a hybrid framework.<br></br><br></br>
                     Derek is a decorated athlete, all-natural physique competitor, and Fortune 500 speaker who never forgets he was just a middle-class kid with a big head, bad haircut, and bad skin until he discove- red health is a choice to make every single day. He acknowledges and speaks to the inner nerd in all of us.
                     Derek is based in LA, California, and is available for speaking events across the US, global and vir- tual summits, podcasts, and interviews.</p>
-                  <a href='/about'>
+                  <a href='https://calendly.com/lifeup-health' target='_blank' rel="noopener noreferrer">
                     <button className="btn yellow-btn" type="submit">INVITE DEREK TO SPEAK AT YOUR NEXT EVENT
                       <span className='home-icon'><GoArrowUpRight /></span>
                     </button>
@@ -65,7 +65,7 @@ const Speaker = () => {
         <section id="DiscussionTopics">
           <div className='container'>
             <div className='row'>
-              <div className='col-md-6'>
+              <div className='col-lg-6 col-md-12 col-sm-12'>
                 <div className='DiscussionTopicsText'>
                   <h4 className="h4-head main-head">Derek Opperman</h4>
                   <div className='DiscussionTopicsText-IconBox'>
@@ -106,7 +106,7 @@ const Speaker = () => {
                   </div>
                 </div>
               </div>
-              <div className='col-md-6'><img src={DiscussionTopicsDarrek} alt='DiscussionTopicsDarrek'></img></div>
+              <div className='col-lg-6 col-md-12 col-sm-12'><img src={DiscussionTopicsDarrek} alt='DiscussionTopicsDarrek'></img></div>
             </div>
           </div>
         </section>
@@ -134,15 +134,15 @@ const Speaker = () => {
         <section id='podcastConference'>
           <div className='container-fluid'>
             <div className='row'>
-              <div className='col-md-5 podcastConferenceImg'>
+              <div className='col-lg-5 col-sm-12 col-md-12 podcastConferenceImg'>
                 <img src={summits} alt='summits'></img>
               </div>
-              <div className='col-md-7 podcastConferenceImgtext'>
+              <div className='col-lg-7 col-sm-12 col-md-12 podcastConferenceImgtext'>
                 <h4 className="h4-head main-head">Do you have a podcast, conference, or live event coming up?</h4>
                 <p className='text-desc'>Derek is the #1 Coaching and Consulting Professional in the industry for having employers and employees experience fulfillment through holistic, comprehensive corporate health and wellness programs.<br></br><br></br>
                   Derek is your #1 keynote and motivational speaker on the future of corporate Health and Wellness Programs.<br></br><br></br>
                   From his own origin story of overcoming physical challenges, and a parent needing mental health support, to the 1000's 1:1 clients that have relied on Derek's whole being coa- ching, his talks will inspire, engage, and motivate your employees from leadership to su- pporting staff members.</p>
-                <a href='/about'>
+                <a href='https://calendly.com/lifeup-health' target='_blank' rel="noopener noreferrer">
                   <button className="btn yellow-btn black-btn" type="submit">INVITE DEREK TO SPEAK
                     <span className='home-icon'><GoArrowUpRight /></span>
                   </button>
@@ -170,9 +170,8 @@ const Speaker = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-lg-8 col-md-12 col-sm-12'>
-                <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspen- disse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis</p>
+                <p class="text-desc">If you have any questions or inquiries about our Corporate Wellness Programs,
+                  Please reach out so we can begin to discover what an impactful program for your team could look like.</p>
               </div>
               <div className='col-lg-4 col-md-12 col-sm-12 contactNowBtn'>
                 <a href='/contact'>

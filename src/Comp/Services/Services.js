@@ -67,10 +67,8 @@ const Services = () => {
           <div className='row'>
             <div className='col-md-4 col-lg-3'><img src={ScheduleCall} alt='ScheduleCall'></img></div>
             <div className='col-md-8 col-lg-6'>
-              <h4 class="h4-head main-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen-
-                disse ultrices gravida.
-                Risus commodo viverra maecenas accumsan lacus vel facilisis</h4>
+              <h4 class="h4-head main-head">If you have any questions or inquiries about our Corporate Wellness Programs,
+                Please reach out so we can begin to discover what an impactful program for your team could look like.</h4>
             </div>
             <div className='col-md-12 col-lg-3 contactNowBtn '>
               <a href='/contact'>
@@ -191,10 +189,9 @@ const Services = () => {
                     <div className='col-md-7 piller-box-text'>
                       <h4 class="h4-head counting">05</h4>
                       <h4 class="h4-head">Rest & Recovery</h4>
-                      <p className='text-desc'>Movement is a noun that means the process of moving,
-                        or a change in position or posture. It can also refer to a particular manner or
-                        style of moving, or the act of moving people or things from one place to another.
-                        For example, "She observed the gentle movement of his chest as he breathed"..</p>
+                      <p className='text-desc'>Sleep Foundation, 63% of adults report not getting enough sleep. And just two days with six or less hours of sleep makes one 2.5x more likely to catch a virus,
+                        and it doesn’t have to be like this! Oftentimes, a great night’s rest is just a few changes away.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -270,10 +267,7 @@ const Services = () => {
       <section id='blackContactNow'>
         <div className='container'>
           <div className='row'>
-            <p className='text-desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspen-
-              disse ultrices gravida.
-              Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            <p className='text-desc'>LifeUP Corporate Wellness designs corporate wellness programs that create the ‘a-ha!’ moments that transform ordinary lives into extraordinary lifestyles</p>
             <a href='/contact'>
               <button className="btn yellow-btn" type="submit">contact now
                 <span className='home-icon'><GoArrowUpRight /></span>

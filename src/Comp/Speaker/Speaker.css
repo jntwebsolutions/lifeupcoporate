@@ -132,6 +132,123 @@ section#SpeakerInner .DerekSpeakerImgText .yellow-btn:hover {
     color: #000;
     padding-bottom: 17px;
 }
+
 #Speaker-page #videoTesti {
-    margin-top:0px;
+    margin-top: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section#SpeakerInner .DerekSpeakerImg {
+        height: 350px;
+    }
+
+    section#SpeakerInner .DerekSpeakerImgText {
+        padding: 22px 0 0px 0px;
+    }
+
+    section#SpeakerInner .DerekSpeakerImgText .main-head,
+    section#SpeakerInner .DerekSpeakerImg .main-head {
+        font-size: 28px !important;
+    }
+
+    section#SpeakerInner .col-lg-8 {
+        padding: 0;
+    }
+
+    section#SpeakerInner {
+        padding: 60px 12px;
+    }
+
+    .DiscussionTopicsText {
+        padding-right: 0px;
+    }
+
+    #DiscussionTopics .DiscussionTopicsText-IconBox .text-desc {
+        font-size: 16px;
+        line-height: 1.4rem;
+    }
+
+    #DiscussionTopics img {
+        width: 100%;
+    }
+
+    #online .online-top {
+        padding-top: 0px;
+    }
+
+    #online img {
+        margin-bottom: 15px;
+    }
+
+    #online {
+        padding: 40px 0;
+    }
+
+    #podcastConference {
+        margin-top: 0px;
+        padding: 15px 15px 35px 15px;
+    }
+
+    #podcastConference .podcastConferenceImg img {
+        margin-top: 0px;
+    }
+
+    #podcastConference .podcastConferenceImg img {
+        height: 260px;
+        margin-bottom: 15px;
+    }
+
+    #podcastConference .podcastConferenceImgtext {
+        padding: 0px 0px 0 0px;
+    }
+
+    section#WorkplaceWellness .h4-head {
+        padding-right: 0px;
+    }
+
+    #contactNow {
+        padding: 30px 0 70px 0 !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    section#SpeakerInner .DerekSpeakerImgText {
+        padding: 22px 0 0px 0px;
+    }
+
+    section#SpeakerInner .DerekSpeakerImg {
+        display: none;
+    }
+
+    section#SpeakerInner {
+        padding-top: 20px;
+    }
+
+    section#SpeakerInner .DerekSpeakerImgText .main-head {
+        font-size: 30px !important;
+        font-weight: 600;
+    }
+    #DiscussionTopics .row{
+        flex-direction: column-reverse;
+    }
+    #DiscussionTopics img {
+        width: 44%;
+    }
+    .DiscussionTopicsText {
+        padding-top: 25px;
+        padding-right: 0px;
+    }
+    #podcastConference .podcastConferenceImg img {
+         margin-top: 0px; ;
+    }
+    #podcastConference {
+        margin-top: 0px;
+    }
+    #podcastConference .podcastConferenceImgtext {
+        padding: 33px 0px 0 0px;
+    }
+    #podcastConference {
+        padding: 25px 28px 40px 28px;
+    }
 }

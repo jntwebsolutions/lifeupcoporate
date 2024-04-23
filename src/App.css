@@ -2,29 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:LexendDeca;
+  font-family: LexendDeca;
 }
 
 @font-face {
   font-family: LexendDeca;
   src: url(./Assests/All-Fonts/LexendDeca/LexendDeca-main.ttf);
 }
+
 @font-face {
   font-family: Poppins-Medium;
   src: url(./Assests/All-Fonts/Poppins/Poppins-Medium.ttf);
 }
+
 @font-face {
   font-family: Poppins-Light;
   src: url(./Assests/All-Fonts/Poppins/Poppins-Light.ttf);
 }
+
 @font-face {
-  font-family:Poppins-Regular;
+  font-family: Poppins-Regular;
   src: url(./Assests/All-Fonts/Poppins/Poppins-Regular.ttf);
 }
+
 @font-face {
-  font-family:Poppins-Thin;
+  font-family: Poppins-Thin;
   src: url(./Assests/All-Fonts/Poppins/Poppins-Thin.ttf);
 }
+
 /* universal css */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -37,25 +42,32 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-img{
+
+img {
   width: 100%;
 }
-a{
+
+a {
   text-decoration: none;
 }
-p{
+
+p {
   margin-bottom: 0;
-  font-family:Poppins-Regular;
+  font-family: Poppins-Regular;
 }
-.for-top-spacing{
+
+.for-top-spacing {
   padding-top: 90px;
 }
-.yellow-txt{
+
+.yellow-txt {
   color: #EBDF1B;
 }
-.front-page{
+
+.front-page {
   margin-bottom: 100px;
 }
+
 .h4-head {
   font-size: 28px;
   color: #fff;
@@ -74,6 +86,7 @@ p{
   font-weight: 500;
   margin-bottom: 40px;
 }
+
 #all-banner {
   background-position: center;
   background-repeat: no-repeat;
@@ -92,6 +105,82 @@ p{
   text-transform: capitalize;
 }
 
+.yellow-btn:active {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none
+}
 
+.yellow-btn {
+  border: none;
+}
 
+span.error {
+  color: red;
+}
 
+span.fullWidth {
+  width: 100%;
+}
+
+/* privacy policy start */
+#Privacy-page #all-banner {
+  background-image: url("./Assests//img/about-banner.png");
+}
+
+.Privacy-pageContent {
+  padding: 50px 0;
+}
+
+.Privacy-pageContent .main-head {
+  margin-bottom: 10px;
+}
+
+.Privacy-pageContent h3.h4-head {
+  font-size: 28px;
+  color: #000;
+}
+
+.Privacy-pageContent .InnerText .h4-head,
+.Privacy-pageContent .InnerText .text-desc,
+.Privacy-pageContent .bottom-text-desc {
+  color: #000;
+}
+
+.Privacy-pageContent .InnerText {
+  padding-top: 50px;
+  border-bottom: 1px solid #0000004d;
+  padding-bottom: 25px;
+}
+
+.Privacy-pageContent .InnerText .text-desc {
+  font-size: 18px;
+}
+
+.Privacy-pageContent .InnerText ol {
+  padding-top: 15px;
+}
+
+.Privacy-pageContent .bottom-text-desc {
+  font-size: 18px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .Privacy-pageContent h3.h4-head {
+    font-size: 18px !important;
+  }
+
+  .Privacy-pageContent .InnerText .h4-head {
+    font-size: 28px !important;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 768px) and (max-width:992px){
+  .Privacy-pageContent h3.h4-head {
+    font-size: 20px !important;
+}
+.Privacy-pageContent .InnerText .h4-head{
+  font-size: 30px !important;
+}
+}

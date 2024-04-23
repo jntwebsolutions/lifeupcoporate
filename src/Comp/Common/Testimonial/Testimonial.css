@@ -22,12 +22,19 @@
     font-weight: 300;
     line-height: 1.7rem;
 }
-#testimonial  .owl-dots {
+
+#testimonial .owl-dots {
     padding-top: 30px;
 }
+
 #testimonial.owl-dot span {
     background: #fff;
 }
-#testimonial .owl-dot.active span{
+
+#testimonial .owl-dot.active span {
     background-color: #000;
+}
+
+#testimonial .item {
+    height: 419px;
 }

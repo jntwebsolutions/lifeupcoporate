@@ -20,13 +20,15 @@ import henryQui from "../../Assests/img/henryqui.png";
 import ScheduleCall from "../../Assests/img/scheduleLogo.png";
 import WorkplaceWellness from "../../Comp/Common/WorkplaceWellness/WorkplaceWellness";
 import ContactForm from '../../Comp/Common/ContactForm/ContactForm';
-import blog1 from "../../Assests/img/blog1.jpg";
+import BeyondTheBasic from "../../Assests/img/BeyondTheBasics.jpg";
+import HealtyEmployess from "../../Assests/img/HealthyEmployees.webp";
+import LeapForward from "../../Assests/img/LeapForward.jpg";
 import TopBanner from "../../Comp/Common/TopBanner/TopBanner";
 import "./About.css";
 const About = () => {
     const data = {
         name: "about"
-      }
+    }
     return (
         <section className='for-top-spacing' id='about-page'>
             {/* about banner start */}
@@ -46,9 +48,10 @@ const About = () => {
                                 <p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Quis ipsum suspen- disse ultrices gravida.
                                     Risus commodo viverra maecenas accumsan lacus</p>
-                                <button className="btn yellow-btn" type="submit">schedule a call
+                                <a href='https://calendly.com/lifeup-health' target='_blank'><button className="btn yellow-btn" type="submit">schedule a call
                                     <span className='home-icon'><GoArrowUpRight /></span>
                                 </button>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -325,9 +328,13 @@ const About = () => {
                         <div className='col-md-8 col-lg-6'>
                             <h4 class="h4-head main-head">LifeUP Corporate Health & Wellness Looks Forward To Partnering With You.</h4>
                         </div>
-                        <div className='col-md-12 col-lg-3'><button className="btn yellow-btn black-btn" type="submit">schedule a call
-                            <span className='home-icon'><GoArrowUpRight /></span>
-                        </button></div>
+                        <div className='col-md-12 col-lg-3'>
+                            <a href='https://calendly.com/lifeup-health' target='_blank'>
+                                <button className="btn yellow-btn black-btn" type="submit">schedule a call
+                                    <span className='home-icon'><GoArrowUpRight /></span>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -349,37 +356,43 @@ const About = () => {
                     <h4 class="h4-head main-head">Latest Corporate<br></br> Wellness News</h4>
                     <div className='row'>
                         <div className='col-md-6 col-lg-4 col-xs-12 col-sm-12'>
-                            <div className='blogs-inner'>
-                                <img src={blog1} alt='blog1'></img>
-                                <div className='blog-desc'>
-                                    <h3>April 5, 2024</h3>
-                                    <h4 class="h4-head main-head">Diabetes Alert Day: A Wake-Up Call for Employee Health</h4>
-                                    <p className='text-desc'>As a certified holistic health coach in the vibrant city of Los Angeles,
-                                        I’ve witnessed the transformative power of stepping beyond traditional wellness</p>
+                            <a href='https://blog.dgquick.in/beyond-the-basics-unleashing-wellness-innovation-in-the-workplace/' target='_blank'>
+                                <div className='blogs-inner'>
+                                    <img src={BeyondTheBasic} alt='BeyondTheBasic'></img>
+                                    <div className='blog-desc'>
+                                        <h3>March 22, 2024</h3>
+                                        <h4 class="h4-head main-head">Beyond the Basics: Unleashing Wellness Innovation in the Workplace</h4>
+                                        <p className='text-desc'>I don’t know about you, but the idea of transforming workplace culture has always fascinated me.
+                                            As a certified holistic health coach...</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-md-6 col-lg-4 col-xs-12 col-sm-12'>
-                            <div className='blogs-inner'>
-                                <img src={blog1} alt='blog1'></img>
-                                <div className='blog-desc'>
-                                    <h3>April 5, 2024</h3>
-                                    <h4 class="h4-head main-head">Diabetes Alert Day: A Wake-Up Call for Employee Health</h4>
-                                    <p className='text-desc'>As a certified holistic health coach in the vibrant city of Los Angeles,
-                                        I’ve witnessed the transformative power of stepping beyond traditional wellness</p>
+                            <a href='https://blog.dgquick.in/healthy-employees-thriving-business-unlocking-the-potential-of-wellness/' target='_blank'>
+                                <div className='blogs-inner'>
+                                    <img src={HealtyEmployess} alt='HealtyEmployess'></img>
+                                    <div className='blog-desc'>
+                                        <h3>March 22, 2024</h3>
+                                        <h4 class="h4-head main-head">Healthy Employees, Thriving Business: Unlocking</h4>
+                                        <p className='text-desc'>As a certified holistic health coach in the vibrant city of Los Angeles,
+                                            I’ve witnessed the transformative power of stepping beyond traditional wellness programs to cultivate a thriving...</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-md-6 col-lg-4 col-xs-12 col-sm-12'>
-                            <div className='blogs-inner'>
-                                <img src={blog1} alt='blog1'></img>
-                                <div className='blog-desc'>
-                                    <h3>April 5, 2024</h3>
-                                    <h4 class="h4-head main-head">Diabetes Alert Day: A Wake-Up Call for Employee Health</h4>
-                                    <p className='text-desc'>As a certified holistic health coach in the vibrant city of Los Angeles,
-                                        I’ve witnessed the transformative power of stepping beyond traditional wellness</p>
+                            <a href='https://blog.dgquick.in/australia-s-right-to-disconnect-a-leap-forward-in-employee-well-being/' target='_blank'>
+                                <div className='blogs-inner'>
+                                    <img src={LeapForward} alt='LeapForward'></img>
+                                    <div className='blog-desc'>
+                                        <h3>March 21, 2024</h3>
+                                        <h4 class="h4-head main-head">As a corporate health and wellness coach,</h4>
+                                        <p className='text-desc'>I’ve long advocated for the importance of work-life balance in fostering employee well-being and preventing burnout.
+                                            That’s why I’m thrilled to see Australia taking a significant step forward... </p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

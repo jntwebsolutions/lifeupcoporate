@@ -16,7 +16,7 @@ const Testimonial = () => {
                     items: 3 // Number of items to show on large screens (width >= 992px)
                 }
             }}>
-                <div class='item'>
+                {/* <div class='item'>
                     <div className='test-box'>
                         <BiSolidQuoteAltRight />
                         <p class="text-desc">
@@ -25,33 +25,34 @@ const Testimonial = () => {
                             tech have kept 60lbs off for the last three years</p>
                         <h3>Heidi H.<br></br>Baker Hughes</h3>
                     </div>
-                </div>
+                </div> */}
                 <div class='item'>
                     <div className='test-box'>
                         <BiSolidQuoteAltRight />
-                        <p class="text-desc">
-                            Derek helped me develop my 'keystone habits. Simple practices done daily
-                            that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                            tech have kept 60lbs off for the last three years</p>
+                        <p class="text-desc">It was great to feel challenged and motivated to 'move' more.
+                            I am on the road to better habits and I’m really grateful.
+                            I really appreciate the time you spent making sure we succeeded in a way that was
+                            important for each of us.
+                        </p>
                         <h3>Heidi H.<br></br>Baker Hughes</h3>
                     </div>
                 </div>   <div class='item'>
                     <div className='test-box'>
                         <BiSolidQuoteAltRight />
                         <p class="text-desc">
-                            Derek helped me develop my 'keystone habits. Simple practices done daily
-                            that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                            tech have kept 60lbs off for the last three years</p>
-                        <h3>Heidi H.<br></br>Baker Hughes</h3>
+                            Derek helped me develop my ‘keystone habits.’ Simple practices done daily that seemed almost
+                            inconsequential at the time..those,
+                            combined behavior tracking through wearable tech have kept 60lbs off for the last three years.</p>
+                        <h3>Ben G.<br></br>Baker Hughes</h3>
                     </div>
                 </div>   <div class='item'>
                     <div className='test-box'>
                         <BiSolidQuoteAltRight />
                         <p class="text-desc">
-                            Derek helped me develop my 'keystone habits. Simple practices done daily
-                            that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                            tech have kept 60lbs off for the last three years</p>
-                        <h3>Heidi H.<br></br>Baker Hughes</h3>
+                            LifeUP provided a framework for both food and workout that I know
+                            I can just wake up and do without thinking about it,
+                            which helps me integrate it all much more seamlessly into my life.</p>
+                        <h3>Chantelle N.<br></br>Baker Hughes</h3>
                     </div>
                 </div>
             </OwlCarousel>
