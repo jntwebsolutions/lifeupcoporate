@@ -20,15 +20,15 @@ const Footer = () => {
                         <div className='row'>
                             <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='footer-logo'>
-                                    <a href="/"><img src={footerLogo} alt='footerLogo'></img></a>
+                                    <Link to='/'><img src={footerLogo} alt='footerLogo'></img> </Link>
                                     <p>LifeUP Corporate Wellness designs corporate wellness programs that create the ‘a-ha!’
                                         moments that transform ordinary lives into extraordinary lifestyles
                                     </p>
                                     <div className='footer-social-icon'>
                                         <i><a href='https://www.facebook.com/lifeuphealthcoaching' target='_blank' rel="noreferrer"><FaFacebookF /></a></i>
-                                        <i><a href="https://www.instagram.com/_life_up_/" target='_blank'><ImLinkedin2 /></a></i>
+                                        <i><a href="https://www.linkedin.com/in/derek-opperman-737467114/" target='_blank'><ImLinkedin2 /></a></i>
                                         <i><a href="https://www.youtube.com/channel/UCOQvsfoRHbXMRmzNfxreLMg" target='_blank'><GrYoutube /></a></i>
-                                        <i><a href='https://www.linkedin.com/in/derek-opperman-737467114/' target='_blank'><PiInstagramLogoFill /></a></i>
+                                        <i><a href='https://www.instagram.com/_life_up_/' target='_blank'><PiInstagramLogoFill /></a></i>
                                     </div>
                                 </div>
                             </div>
@@ -36,12 +36,12 @@ const Footer = () => {
                                 <div className='footer-list'>
                                     <h3>useful links</h3>
                                     <ul>
-                                        <li><a href='/' rel="noopener noreferrer">HOME</a></li>
-                                        <li><a href='about' rel="noopener noreferrer" >ABOUT</a></li>
-                                        <li><a href='/services' rel="noopener noreferrer">SERVICES</a></li>
-                                        <li><a href='/speaker' rel="noopener noreferrer">SPEAKER</a></li>
-                                        <li><a href='https://blog.dgquick.in' rel="noopener noreferrer">BLOG</a></li>
-                                        <li><a href='/contact' rel="noopener noreferrer">CONTACT</a></li>
+                                        <li><Link to='/'>HOME</Link></li>
+                                        <li><Link to='/about'>ABOUT</Link></li>
+                                        <li><Link to='/services'>SERVICES</Link></li>
+                                        <li><Link to='/speaker'>SPEAKER</Link></li>
+                                        <li><a href='https://lifeupcorporatewellness.com/blog'>BLOG</a></li>
+                                        <li><Link to='/contact'>CONTACT</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -71,8 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='copyright'>
-                    copyright <PiCopyrightBold /> 2024 all right reserved |<a href='/privacy' rel="noopener" target='_blank'>&nbsp;Privacy Policy &nbsp;</a>|
+                <div className='copyright'> copyright <PiCopyrightBold /> 2024 all right reserved |<Link to='/privacy' rel="noopener">&nbsp;Privacy Policy &nbsp;</Link>|
                 </div>
             </section>
         </footer>

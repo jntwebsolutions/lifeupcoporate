@@ -19,12 +19,17 @@ import summits from "../../Assests/img/Summits.png";
 import VideoTestimonial from "../Common/VideoTestimonial/VideoTestimonial";
 import WorkplaceWellness from '../Common/WorkplaceWellness/WorkplaceWellness';
 import ContactForm from '../Common/ContactForm/ContactForm';
+import { Helmet } from "react-helmet";
 const Speaker = () => {
   const data = {
     name: "Speaker"
   }
   return (
     <>
+      <Helmet>
+        <title> Derek Opperman - The Health and Wellness Coach</title>
+        <meta name="description" content="Derek Opperman is a Health and Wellness coach and lifestyle expert who supports employees in experiencing the fulfillment of their potential" />
+      </Helmet>
       <section className='for-top-spacing' id='Speaker-page'>
         {/* Speaker banner start */}
         <TopBanner {...data} />

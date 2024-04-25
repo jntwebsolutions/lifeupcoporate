@@ -152,7 +152,7 @@ const Email = () => {
                                     </span>
                                 </div>
                                 <ReCAPTCHA
-                                    sitekey="6LdnUcQpAAAAAKY1tscojIH-gdI_UNSbRJGXjL_J"
+                                    sitekey="6LeaT8UpAAAAAHLD09eJvziKG02Htnl7IN8TwUOg"
                                     onChange={onChange}
                                 />
                                 <div className='d-flex-roww submit-bottom'>

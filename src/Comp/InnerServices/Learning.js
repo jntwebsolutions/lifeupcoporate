@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./InnerServices.css";
 import { GoArrowUpRight } from "react-icons/go";
 import TopBanner from '../Common/TopBanner/TopBanner';
@@ -210,11 +211,11 @@ const Learning = () => {
                                     Please reach out so we can begin to discover what an impactful program for your team could look like.</h4>
                             </div>
                             <div className='col-md-12 col-lg-3 contactNowBtn '>
-                                <a href='/contact'>
+                                <Link to='/contact'>
                                     <button className="btn yellow-btn black-btn" type="submit">contact now
                                         <span className='home-icon'><GoArrowUpRight /></span>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

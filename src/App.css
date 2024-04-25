@@ -58,14 +58,11 @@ p {
 
 .for-top-spacing {
   padding-top: 90px;
+  padding-bottom: 100px;
 }
 
 .yellow-txt {
   color: #EBDF1B;
-}
-
-.front-page {
-  margin-bottom: 100px;
 }
 
 .h4-head {
@@ -175,12 +172,14 @@ span.fullWidth {
     font-size: 28px !important;
   }
 }
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 768px) and (max-width:992px){
+@media only screen and (min-width: 768px) and (max-width:992px) {
   .Privacy-pageContent h3.h4-head {
     font-size: 20px !important;
-}
-.Privacy-pageContent .InnerText .h4-head{
-  font-size: 30px !important;
-}
+  }
+
+  .Privacy-pageContent .InnerText .h4-head {
+    font-size: 30px !important;
+  }
 }

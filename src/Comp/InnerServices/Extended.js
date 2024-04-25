@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./InnerServices.css";
 import { GoArrowUpRight } from "react-icons/go";
 import TopBanner from '../Common/TopBanner/TopBanner';
@@ -6,15 +7,7 @@ import ScheduleCall from "../../Assests/img/scheduleLogo.png";
 import LunchLearn from "../../Assests/img/LunchLearn.png";
 import checkArrow from "../../Assests/img/checkArrow.png";
 import InternalStretching from "../../Assests/img/InternalStretching.png";
-import WellnessClassesImg from "../../Assests/img/WellnessClassesImg.png";
-import GroupFitness from "../../Assests/img/GroupFitness.jpg";
-import NutritionTutorials from "../../Assests/img/NutritionTutorials.jpg";
-import Yoga from "../../Assests/img/Yoga.jpg";
-import ContentCreation from "../../Assests/img/ContentCreation.png";
 import ContactForm from '../Common/ContactForm/ContactForm';
-import SoundBowls from "../../Assests/img/SoundBowls.jpg";
-import GuidedBreathWork from "../../Assests/img/GuidedBreathWork.jpg";
-import CreativityandPlay from "../../Assests/img/CreativityPlay.jpg";
 import Faq from "../Common/Faq/Faq";
 const Extended = () => {
     const data = {
@@ -146,11 +139,11 @@ const Extended = () => {
                                     Please reach out so we can begin to discover what an impactful program for your team could look like.</h4>
                             </div>
                             <div className='col-md-12 col-lg-3 contactNowBtn '>
-                                <a href='/contact'>
+                                <Link to='/contact'>
                                     <button className="btn yellow-btn black-btn" type="submit">contact now
                                         <span className='home-icon'><GoArrowUpRight /></span>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

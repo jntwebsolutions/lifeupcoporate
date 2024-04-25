@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import { Outlet, Link } from "react-router-dom";
 import logo from "../../../Assests/img/logo.png";
 import { BiSolidPhoneCall } from "react-icons/bi";
@@ -10,11 +10,7 @@ import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import './Navbar.css';
 const Navbar = () => {
-    const [activeItem, setActiveItem] = useState('home'); // Initially setting 'home' as active
-    // Function to handle click on navbar items
-    const handleItemClick = (itemName) => {
-        setActiveItem(itemName);
-    };
+ 
     return (
         <>
 
@@ -79,7 +75,7 @@ const Navbar = () => {
                                     <Link to="/speaker" rel="noopener noreferrer" >Speaker</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="https://blog.dgquick.in" rel="noopener noreferrer">Blog</Link>
+                                    <a href="https://lifeupcorporatewellness.com/blog" rel='noopener noreferrer'>Blog</a>
                                 </li>
                                 <li className="nav-item">
                                     <Link to="/contact" rel="noopener noreferrer">Contact</Link>

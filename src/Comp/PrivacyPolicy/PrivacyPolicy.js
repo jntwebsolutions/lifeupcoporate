@@ -1,12 +1,19 @@
 import React from 'react';
 import '../../../src/App.css';
-import TopBanner from '../Common/TopBanner/TopBanner'
+import TopBanner from '../Common/TopBanner/TopBanner';
+import { Helmet } from "react-helmet";
 const PrivacyPolicy = () => {
     const data = {
         name: "Privacy Policy"
     }
     return (
         <>
+            <Helmet>
+                <title>Privacy Policy</title>
+                <meta name="description" content="Get the best corporate health and wellness coach in los angeles CA with LifeUP, 
+                we specialize in improving workplace, employee wellness & productivity
+" />
+            </Helmet>
             <section className='for-top-spacing' id='Privacy-page'>
                 {/* Speaker banner start */}
                 <TopBanner {...data} />

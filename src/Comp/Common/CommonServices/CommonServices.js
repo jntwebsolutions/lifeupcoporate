@@ -1,13 +1,13 @@
 import React from 'react'
 import "./CommonServices.css";
+import { Link } from 'react-router-dom';
 import { MdArrowOutward } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
 const CommonServices = () => {
   return (
     <div className='services'>
       <div className='container'>
-        <h4 className='h4-head main-head'>
-          services</h4>
+        <h4 className='h4-head main-head'> services</h4>
         <div className='row'>
           <div className='col-md-6 col-lg-4'>
             <div className='out-border'>
@@ -32,11 +32,11 @@ const CommonServices = () => {
                   </a>
                 </div>
                 <div id="hover-btn">
-                  <a href="/learning" class="button">
+                  <Link to="/learning" class="button">
                     <span class="icon">
                       <span className='hover-icon'><MdArrowOutward /></span></span>
                     <span class="text">Full Service</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,11 +64,11 @@ const CommonServices = () => {
                   </a>
                 </div>
                 <div id="hover-btn">
-                  <a href="/conferences" class="button">
+                  <Link to="/conferences" class="button">
                     <span class="icon">
                       <span className='hover-icon'><MdArrowOutward /></span></span>
                     <span class="text">Full Service</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -92,11 +92,11 @@ const CommonServices = () => {
                   </a>
                 </div>
                 <div id="hover-btn">
-                  <a href="/extended" class="button">
+                  <Link to="/extended" class="button">
                     <span class="icon">
                       <span className='hover-icon'><MdArrowOutward /></span></span>
                     <span class="text">Full Service</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
