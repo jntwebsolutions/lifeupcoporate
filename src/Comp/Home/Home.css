@@ -1,7 +1,7 @@
 /* home banner css start */
 #home,
 .sm-home {
-    background-image: url("../../Assests/img/home-banner.jpg");
+    background-image: url("../../Assests/img/home-banner.webp");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -55,7 +55,7 @@
 }
 
 #video-section .video-section-inner {
-    background-image: url("../../Assests/img/video-bg.jpg");
+    background-image: url("../../Assests/img/video-bg.webp");
     /* width: 100%; */
     background-position: center;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ button.btn.transparent-btn .home-icon {
 /* ------------------------------- */
 /* HealthWellness start */
 #HealthWellness {
-    background: url("../../Assests/img/HealthWellness-bg.jpg");
+    background: url("../../Assests/img/HealthWellness-bg.webp");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -269,7 +269,7 @@ section#services {
 }
 
 #lifestyleCoach {
-    background-image: url("../../Assests/img/lifestyleCoachbg.png");
+    background-image: url("../../Assests/img/lifestylecoachbg.webp");
     padding: 40px 0 0 0;
     color: #fff;
     position: relative;
@@ -328,7 +328,7 @@ section#services {
 }
 
 #solutions .before-border-text::before {
-    content: url("../../Assests/img/before-border.png");
+    content: url("../../Assests/img/before-border.webp");
 }
 
 .before-border-text {
@@ -411,7 +411,7 @@ section#WorkplaceWellness .black-btn {
 /* -------------------------------- */
 /* contact-form start */
 #contact-form {
-    background-image: url("../../Assests/img/Form.jpg");
+    background-image: url("../../Assests/img/Form.webp");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -503,9 +503,11 @@ section#WorkplaceWellness .black-btn {
 #contact-form .submit-bottom .yellow-btn {
     font-size: 14px;
 }
+
 #contact-form .d-flex-roww.submit-bottom {
     padding-top: 20px;
 }
+
 /* contact-form end */
 /* --------------------------- */
 /* blog start */
@@ -637,7 +639,7 @@ section#WorkplaceWellness .black-btn {
 
 /* testimonial start */
 #testimonial {
-    background-image: url("../../Assests/img/testi.jpg");
+    background-image: url("../../Assests/img/testi.webp");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -648,7 +650,7 @@ section#WorkplaceWellness .black-btn {
 
 /* videoTesti start */
 #videoTesti {
-    background-image: url('../../Assests/img/VideoTesti.jpg');
+    background-image: url('../../Assests/img/VideoTesti.webp');
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -672,7 +674,7 @@ section#WorkplaceWellness .black-btn {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(../../Assests/img/left-icon.png);
+    background-image: url(../../Assests/img/left-icon.webp);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: -40px;
@@ -685,7 +687,7 @@ section#WorkplaceWellness .black-btn {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-image: url(../../Assests/img/right-icon.png);
+    background-image: url(../../Assests/img/right-icon.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -748,7 +750,7 @@ section#WorkplaceWellness .black-btn {
     }
 
     #navbar .navbar-toggler-icon {
-        background-image: url("../../Assests/img/humburger.png");
+        background-image: url("../../Assests/img/humburger.webp");
         width: 1.2em;
         height: 1.2em;
 
@@ -777,6 +779,10 @@ section#WorkplaceWellness .black-btn {
     }
 
     /* HOME START */
+    #home .home-text h2 {
+        font-size: 40px;
+    }
+
     #home .home-text {
         position: relative;
         transform: inherit;
@@ -799,11 +805,11 @@ section#WorkplaceWellness .black-btn {
     }
 
     .sm-HealthWellness {
-        background-image: url("../../Assests/img/Sm-HealthWellnessBg.png") !important;
+        background-image: url("../../Assests/img/sm-healthwellnessbg.webp") !important;
     }
 
     .sm-home {
-        background-image: url("../../Assests/img/sm-home.jpg") !important;
+        background-image: url("../../Assests/img/sm-home.webp") !important;
         height: 100% !important;
         padding: 30px 0;
     }
@@ -824,7 +830,7 @@ section#WorkplaceWellness .black-btn {
     }
 
     #video-section .video-black-section {
-        padding: 40px;
+        padding: 40px 30px;
     }
 
     #video-section iframe {
@@ -854,7 +860,7 @@ section#WorkplaceWellness .black-btn {
     /* ------------------------- */
     /* NUMBER-COUNTER START */
     .number-counter h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
     #number-counter {
@@ -874,7 +880,7 @@ section#WorkplaceWellness .black-btn {
     }
 
     #HealthWellness {
-        padding: 40px 20px;
+        padding: 40px 10px;
     }
 
     .healthwellenes-number span,
@@ -918,6 +924,14 @@ section#WorkplaceWellness .black-btn {
     /* CONTACT-FORM END */
     /* ----------------------- */
     /* SERVICES START */
+    #foundationPiller .piller-box .piller-box-text .h4-head {
+        font-size: 22px !important;
+    }
+
+    #Challenges .ChallengesBox .h4-head {
+        font-size: 28px !important;
+    }
+
     .services .out-border {
         margin-bottom: 25px;
     }
@@ -934,6 +948,13 @@ section#WorkplaceWellness .black-btn {
     }
 
     /* SERVICES END */
+    /* -------------------- */
+    /* SPEAKER START */
+    #podcastConference .podcastConferenceImgtext .main-head {
+        font-weight: 600;
+    }
+
+    /* SPEAKER END */
     /* ------------------- */
     /* LIFESTYLECOACH START */
     #lifestyleCoach .lifestyleCoachInner {
@@ -955,6 +976,10 @@ section#WorkplaceWellness .black-btn {
     #solutions .padding-start .solutions-text,
     #solutions .solutions-text {
         padding: 25px 15px 0 15px;
+    }
+
+    #solutions .padding-end .solutions-text {
+        padding-right: 0px;
     }
 
     #solutions .h4-head {
@@ -1111,7 +1136,7 @@ section#WorkplaceWellness .black-btn {
 
     /* HOME */
     .sm-home {
-        background-image: url("../../Assests/img/sm-home.jpg") !important;
+        background-image: url("../../Assests/img/sm-home.webp") !important;
         height: 100% !important;
         padding: 30px 0;
     }
@@ -1147,7 +1172,7 @@ section#WorkplaceWellness .black-btn {
 
     /* HEALTHWELLNESS */
     .sm-HealthWellness {
-        background-image: url("../../Assests/img/Sm-HealthWellnessBg.png") !important;
+        background-image: url("../../Assests/img/sm-healthwellnessbg.webp") !important;
     }
 
     /* KNOWLEDGEQUEST */
@@ -1281,7 +1306,7 @@ section#WorkplaceWellness .black-btn {
 
 @media only screen and (min-width: 992px) and (max-width:1200px) {
     .sm-home {
-        background-image: url("../../Assests/img/sm-home.jpg") !important;
+        background-image: url("../../Assests/img/sm-home.webp") !important;
         height: 100% !important;
         padding: 80px 0;
     }

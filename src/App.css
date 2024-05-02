@@ -122,7 +122,7 @@ span.fullWidth {
 
 /* privacy policy start */
 #Privacy-page #all-banner {
-  background-image: url("./Assests//img/about-banner.png");
+  background-image: url("./Assests//img/about-banner.webp");
 }
 
 .Privacy-pageContent {
@@ -171,6 +171,9 @@ span.fullWidth {
   .Privacy-pageContent .InnerText .h4-head {
     font-size: 28px !important;
   }
+  #navbar .dropdown-content li {
+    padding-bottom: 0px !important;
+}
 }
 
 /* Extra small devices (phones, 600px and down) */

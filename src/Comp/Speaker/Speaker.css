@@ -1,9 +1,9 @@
 #Speaker-page #all-banner {
-    background-image: url("../../Assests/img/SpeakerBanner.jpg");
+    background-image: url("../../Assests/img/SpeakerBanner.webp");
 }
 
 .DerekSpeakerImg {
-    background-image: url("../../Assests//img/DerekSpeaker.png");
+    background-image: url("../../Assests//img/derekspeaker.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +53,7 @@ section#SpeakerInner .DerekSpeakerImgText .yellow-btn:hover {
 /* -------------------------- */
 /* DiscussionTopics start */
 #DiscussionTopics {
-    background-image: url("../../Assests//img/DiscussionTopics.jpg");
+    background-image: url("../../Assests/img/discussiontopics.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

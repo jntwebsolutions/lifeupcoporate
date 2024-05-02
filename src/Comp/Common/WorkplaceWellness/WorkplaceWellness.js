@@ -1,5 +1,5 @@
 import React from 'react'
-import Book from "../../../Assests/img/book.png";
+import Book from "../../../Assests/img/book.webp";
 import { GoArrowUpRight } from "react-icons/go";
 const WorkplaceWellness = () => {
     return (
@@ -10,7 +10,7 @@ const WorkplaceWellness = () => {
                     <div className='row'>
                         <div className='col-lg-7 col-md-12 '>
                             <h4 class="h4-head main-head">Transform Your Workplace Wellness</h4>
-                            <p class="text-desc">Elevate your organization’s health culture with our groundbreaking</p>
+                            <p class="text-desc">Elevate your organization’s health culture with our groundbreaking.</p>
                             <div className='before-border-text'>
                                 <span>
                                     <h4>"8 Simple Steps to Build a Company Culture of Health HR's Ultimate Employee Wellness Initiatives Workbook."</h4>
@@ -30,7 +30,7 @@ const WorkplaceWellness = () => {
                                 <span className='home-icon'><GoArrowUpRight /></span>
                             </button>
                             </a>
-                            <p>Start shaping a healthier future for your business</p>
+                            <p>Start shaping a healthier future for your business.</p>
                         </div>
                         <div className='col-lg-5 col-md-12 book-img'>
                           

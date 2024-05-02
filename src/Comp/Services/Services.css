@@ -1,5 +1,5 @@
 #Services-page #all-banner {
-    background-image: url("../../Assests/img/ServiceBanner.jpg");
+    background-image: url("../../Assests/img/ServiceBanner.webp");
 
 }
 
@@ -197,7 +197,7 @@
 /* ------------------------------- */
 /* ProfessionalPerspective start */
 #ProfessionalPerspective {
-    background-image: url("../../Assests/img/ProfessionalPerspective.jpg");
+    background-image: url("../../Assests/img/ProfessionalPerspective.webp");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

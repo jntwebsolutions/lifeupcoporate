@@ -1,12 +1,12 @@
 #Learning-page #all-banner {
-    background-image: url("../../Assests/img/LearningBanner.png");
+    background-image: url("../../Assests/img/learningbanner.webp");
 }
 
 #Conferences-page #all-banner {
-    background-image: url("../../Assests/img/LearningBanner.png");
+    background-image: url("../../Assests/img/learningbanner.webp");
 }
 #extended-page #all-banner {
-    background-image: url("../../Assests/img/LearningBanner.png");
+    background-image: url("../../Assests/img/learningbanner.webp");
 }
 .LearningSection .h4-head,
 .LearningSection .text-desc {
@@ -63,7 +63,7 @@ section#LunchLearn,
 /* --------------------------- */
 /* WellnessClasses start */
 #WellnessClasses {
-    background-image: url("../../Assests/img/WellnessClassess.jpg");
+    background-image: url("../../Assests/img/WellnessClassess.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

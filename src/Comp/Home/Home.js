@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GoArrowUpRight } from "react-icons/go";
 import LogoGroup from '../Common/LogoGroup/LogoGroup';
-import VideoImg from "../../Assests/img/video-img.png"
-import footerLogo from "../../Assests/img/footer-logo.png";
+import VideoImg from "../../Assests/img/video-img.webp"
+import footerLogo from "../../Assests/img/footer-logo.webp";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import NumberCounter from '../Common/NumberCounter/NumberCounter';
-import YellowLine from "../../Assests/img/yellowline.png";
-import WhiteLine from "../../Assests/img/whiteline.png";
-import Darek from "../../Assests/img/Derek.png";
-import knowledgeQuest from "../../Assests/img/knowledgequest.png";
+import YellowLine from "../../Assests/img/yellowline.webp";
+import WhiteLine from "../../Assests/img/whiteline.webp";
+import Darek from "../../Assests/img/derek.webp";
+import knowledgeQuest from "../../Assests/img/knowledgequest.webp";
 import CommonServices from "../Common/CommonServices/CommonServices"
-import Solution1 from "../../Assests/img/solution1.png";
-import Solution2 from "../../Assests/img/solution2.png";
+import Solution1 from "../../Assests/img/solution1.webp";
+import Solution2 from "../../Assests/img/solution2.webp";
 import Faq from "../../Comp/Common/Faq/Faq";
-import BeyondTheBasic from "../../Assests/img/BeyondTheBasics.jpg";
+import BeyondTheBasic from "../../Assests/img/BeyondTheBasics.webp";
 import HealtyEmployess from "../../Assests/img/HealthyEmployees.webp";
-import LeapForward from "../../Assests/img/LeapForward.jpg";
+import LeapForward from "../../Assests/img/LeapForward.webp";
 import Testimonial from "../../Comp/Common/Testimonial/Testimonial";
 import WorkplaceWellness from "../Common/WorkplaceWellness/WorkplaceWellness";
 import ContactForm from "../Common/ContactForm/ContactForm";
@@ -78,7 +78,7 @@ const Home = () => {
                             <div className='col-md-12 col-lg-8 video-section-inner'>
                                 <div className='video-section-inner-text'>
                                     <div className="container">
-                                        <button className="VideoImg" onClick={() => openModal('638399892')}><img src={VideoImg} alt='VideoImg'></img></button>
+                                        <button className="VideoImg" onClick={() => openModal('638399892')}><img src={VideoImg} alt='VideoImg' loading="lazy" ></img></button>
                                         {modalOpen && (
                                             <div className="modal-overlay" onClick={closeModal}>
                                                 <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -89,6 +89,7 @@ const Home = () => {
                                                         height="515"
                                                         frameborder="0"
                                                         allow="autoplay; fullscreen"
+                                                        loading="lazy" 
                                                         allowfullscreen
                                                     ></iframe>
                                                 </div>
@@ -99,7 +100,7 @@ const Home = () => {
                             </div>
                             <div className='col-md-12 col-lg-4 video-black-section'>
                                 <div className='video-black-section-inner'>
-                                    <img src={footerLogo} alt='footerLogo'>
+                                    <img src={footerLogo} alt='footerLogo' loading="lazy" >
                                     </img>
                                     <h4 className='h4-head'>LifeUP's <span className='yellow-txt'>Healthy Habits </span> for the Busy Business Program</h4>
                                     <p className='text-desc'>is a transformational, research-backed, comprehensive curriculum delivered in person, online, or in a hybrid framework.
@@ -134,29 +135,29 @@ const Home = () => {
                                     <h1>01</h1>
                                     <span>Build a company culture that is known in the industry as one that supports employees comprehensively.
                                         as a company worth staying with for the long term.</span>
-                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine'></img></span>
+                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine' loading="lazy" ></img></span>
                                 </div>
                                 <div className='healthwellenes-number-white'>
                                     <h1>02</h1>
                                     <span>Create a wellness culture that has employees leading your industry in fitness,
                                         wellness, and confidence.</span>
-                                    <span className='YellowLine'><img src={WhiteLine} alt='WhiteLine'></img></span>
+                                    <span className='YellowLine'><img src={WhiteLine} alt='WhiteLine' loading="lazy" ></img></span>
                                 </div>
                                 <div className='healthwellenes-number number3'>
                                     <h1>03</h1>
                                     <span>Offer a comprehensive wellness program that supports employees live a healthier,
-                                        more fulfilled life at work and at home</span>
-                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine'></img></span>
+                                        more fulfilled life at work and at home.</span>
+                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine' loading="lazy" ></img></span>
                                 </div>
                                 <div className='healthwellenes-number-white'>
                                     <h1>04</h1>
                                     <span>Have a service provider handle all of the employee themes and communications so HR doesn’t have to.</span>
-                                    <span className='YellowLine'><img src={WhiteLine} alt='WhiteLine'></img></span>
+                                    <span className='YellowLine'><img src={WhiteLine} alt='WhiteLine' loading="lazy" ></img></span>
                                 </div>
                                 <div className='healthwellenes-number number3'>
                                     <h1>05</h1>
                                     <span>See your insurance premiums go down while productivity goes up.</span>
-                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine'></img></span>
+                                    <span className='YellowLine'><img src={YellowLine} alt='YellowLine' loading="lazy" ></img></span>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +169,7 @@ const Home = () => {
                 <section id='knowledgeQuest'>
                     <div className='container knowledgeQuestbg'>
                         <div className='row'>
-                            <img src={knowledgeQuest} alt='knowledgeQuest' className='knowledgeQuestImg'></img>
+                            <img src={knowledgeQuest} alt='knowledgeQuest' className='knowledgeQuestImg' loading="lazy" ></img>
                         </div>
                         <div className='row knowledgeQuest-text'>
                             <div className='col-md-5 sm-none'></div>
@@ -197,7 +198,7 @@ const Home = () => {
                 <section id='lifestyleCoach'>
                     <div className='container darekimg'>
                         <div className='row sm-none'>
-                            <img src={Darek} alt='Darek'></img>
+                            <img src={Darek} alt='Darek' loading="lazy" ></img>
                         </div>
                         <div className='row'>
                             <div className='col-md-12 col-lg-6 lifestyleCoachInner'>
@@ -224,7 +225,7 @@ const Home = () => {
                 <section id='solutions'>
                     <div className='container padding-start'>
                         <div className='row'>
-                            <div className='col-md-12 col-lg-6'><img src={Solution1} alt='Solution1'></img></div>
+                            <div className='col-md-12 col-lg-6'><img src={Solution1} alt='Solution1' loading="lazy" ></img></div>
                             <div className='col-md-12 col-lg-6 solutions-text'><h4 class="h4-head">Solutions For The Employee/ Individual From Best
                                 Corporate Health Coach In LA</h4>
                                 <p class="text-desc">LifeUP offers a comprehensive Wellness program that is
@@ -278,9 +279,9 @@ const Home = () => {
                                         <p>Delivering a health program doesn't have to be.</p>
                                     </span>
                                 </div>
-                                <p className='solution-best'>Best of all: The Program can be run live, virtual, or hybrid</p>
+                                <p className='solution-best'>Best of all: The Program can be run live, virtual, or hybrid.</p>
                             </div>
-                            <div className='col-md-12 col-lg-6'><img src={Solution2} alt='Solution1'></img></div>
+                            <div className='col-md-12 col-lg-6'><img src={Solution2} alt='Solution1' loading="lazy" ></img></div>
                         </div>
                     </div>
                 </section>
@@ -297,7 +298,7 @@ const Home = () => {
                             <h4 class="h4-head main-head">Latest Corporate Wellness News</h4>
                             <div className='col-md-12 col-lg-7 blog-left'>
                                 <div className='zoom-img'>
-                                    <img src={BeyondTheBasic} alt='BeyondTheBasic'></img>
+                                    <img src={BeyondTheBasic} alt='BeyondTheBasic' loading="lazy" ></img>
                                 </div>
                                 <div className='blog-left-text'>
                                     <span>
@@ -312,7 +313,7 @@ const Home = () => {
                                 <div className='blog-right'>
                                     <div className='blog-right-flex'>
                                         <div className='zoom-img'>
-                                            <img src={HealtyEmployess} alt='HealtyEmployess'></img>
+                                            <img src={HealtyEmployess} alt='HealtyEmployess' loading="lazy" ></img>
                                         </div>
                                         <div className='left-blog-txt'>
                                             <h5>March 22, 2024</h5>
@@ -324,7 +325,7 @@ const Home = () => {
                                 <div className='blog-right padding-top'>
                                     <div className='blog-right-flex'>
                                         <div className='zoom-img'>
-                                            <img src={LeapForward} alt='LeapForward'></img>
+                                            <img src={LeapForward} alt='LeapForward' loading="lazy" ></img>
                                         </div>
                                         <div className='left-blog-txt'>
                                             <h5>March 21, 2024</h5>

@@ -1,23 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { GoArrowUpRight } from "react-icons/go";
-import ScheduleCall from "../../Assests/img/scheduleLogo.png";
-import Logo from "../../Assests/img/logo.png";
-import Detoxification from "../../Assests/img/Detoxification.jpg";
-import Nutrition from "../../Assests/img/Nutrition.jpg";
-import StressManagment from "../../Assests/img/StressManagement.jpg";
-import Movement from "../../Assests/img/Movement.jpg";
-import RestRecovery from "../../Assests/img/RestRecovery.jpg";
-import MindsetandBelief from "../../Assests/img/MindsetandBelief.jpg";
-import Supplements from "../../Assests/img/Supplements.jpg";
-import CreativityandPlay from "../../Assests/img/CreativityandPlay.jpg";
-import conversationHealth from "../../Assests/img/conversationHealth.png";
-import Summits from "../../Assests/img/Summits.png";
-import Facilitator from "../../Assests/img/Facilitator.jpg";
-import Speaking from "../../Assests/img/Speaking.png";
-import IndividualPillars from "../../Assests/img/IndividualPillars.jpg";
-import Challenges from "../../Assests/img/Challenges.jpg";
-import ContinuedLearning from "../../Assests/img/ContinuedLearning.jpg";
+import ScheduleCall from "../../Assests/img/schedulelogo.webp";
+import Logo from "../../Assests/img/logo.webp";
+import Detoxification from "../../Assests/img/detoxification.webp";
+import Nutrition from "../../Assests/img/Nutrition.webp";
+import StressManagment from "../../Assests/img/StressManagement.webp";
+import Movement from "../../Assests/img/Movement.webp";
+import RestRecovery from "../../Assests/img/RestRecovery.webp";
+import MindsetandBelief from "../../Assests/img/MindsetandBelief.webp";
+import Supplements from "../../Assests/img/Supplements.webp";
+import CreativityandPlay from "../../Assests/img/CreativityandPlay.webp";
+import conversationHealth from "../../Assests/img/conversationhealth.webp";
+import Summits from "../../Assests/img/summits.webp";
+import Facilitator from "../../Assests/img/Facilitator.webp";
+import Speaking from "../../Assests/img/speaking.webp";
+import IndividualPillars from "../../Assests/img/IndividualPillars.webp";
+import Challenges from "../../Assests/img/Challenges.webp";
+import ContinuedLearning from "../../Assests/img/ContinuedLearning.webp";
 import Faq from '../Common/Faq/Faq';
 import "./Services.css"
 import CommonServices from '../Common/CommonServices/CommonServices';
@@ -72,7 +72,7 @@ const Services = () => {
         <section id="scheduleCall">
           <div className='container'>
             <div className='row'>
-              <div className='col-md-4 col-lg-3'><img src={ScheduleCall} alt='ScheduleCall'></img></div>
+              <div className='col-md-4 col-lg-3'><img src={ScheduleCall} alt='ScheduleCall' loading="lazy"></img></div>
               <div className='col-md-8 col-lg-6'>
                 <h4 class="h4-head main-head">If you have any questions or inquiries about our Corporate Wellness Programs,
                   Please reach out so we can begin to discover what an impactful program for your team could look like.</h4>
@@ -97,7 +97,7 @@ const Services = () => {
               <div className='col-lg-4 col-md-12 col-sm-12'>
                 <div className='piller-box black-piller'>
                   <div className='piller-boxLogo'>
-                    <img src={Logo} alt='Logo'></img></div>
+                    <img src={Logo} alt='Logo' loading="lazy"></img></div>
                   <h4 class="h4-head">Result-Driven Corporate <span className='yellow-txt'>Health Programs</span> in LA</h4>
                   <p className='text-desc'>Delivered in Eight Foundational Pillars,
                     all designed to teach and implement health practices that
@@ -128,7 +128,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={Nutrition} alt='Nutrition'>
+                        <img src={Nutrition} alt='Nutrition' loading="lazy" >
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -150,7 +150,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={StressManagment} alt='StressManagment'>
+                        <img src={StressManagment} alt='StressManagment' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -159,7 +159,7 @@ const Services = () => {
                         <p className='text-desc'>It may seem like there's nothing you can do about stress.
                           The bills won't stop coming, there will never be more hours in the day,
                           and your work and family responsi- bilities will always be demand- ing.
-                          But you have a lot more control than you might think</p>
+                          But you have a lot more control than you might think.</p>
                       </div>
                     </div>
                   </div>
@@ -170,7 +170,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={Movement} alt='Movement'>
+                        <img src={Movement} alt='Movement' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -190,7 +190,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={RestRecovery} alt='RestRecovery'>
+                        <img src={RestRecovery} alt='RestRecovery' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -211,7 +211,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={MindsetandBelief} alt='MindsetandBelief'>
+                        <img src={MindsetandBelief} alt='MindsetandBelief' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -230,7 +230,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={Supplements} alt='Supplements'>
+                        <img src={Supplements} alt='Supplements' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -239,7 +239,7 @@ const Services = () => {
                         <p className='text-desc'>Supplements are manufac- tured products that provide nutrients, vitamins,
                           or ingredi- ents that may not be consumed daily or in sufficient quantities.
                           They can also be used to supply what is needed or make an addition.
-                          For example, some people take amino acids in supplement</p>
+                          For example, some people take amino acids in supplement.</p>
                       </div>
                     </div>
                   </div>
@@ -250,7 +250,7 @@ const Services = () => {
                   <div className='container'>
                     <div className='row'>
                       <div className='col-md-5 piller-box-img'>
-                        <img src={CreativityandPlay} alt='CreativityandPlay'>
+                        <img src={CreativityandPlay} alt='CreativityandPlay' loading="lazy">
                         </img>
                       </div>
                       <div className='col-md-7 piller-box-text'>
@@ -258,8 +258,7 @@ const Services = () => {
                         <h4 class="h4-head">Creativity and Play</h4>
                         <p className='text-desc'>Play can help develop creativ- ity, which is a broad concept that
                           includes imagination and the ability to think of innovative ideas. Creative play is a natural part of childhood development
-                          and can include activities that are not governed by rules.
-                          Some examples of creative play</p>
+                          and can include activities that are not governed by rules.</p>
                       </div>
                     </div>
                   </div>
@@ -274,7 +273,7 @@ const Services = () => {
         <section id='blackContactNow'>
           <div className='container'>
             <div className='row'>
-              <p className='text-desc'>LifeUP Corporate Wellness designs corporate wellness programs that create the ‘a-ha!’ moments that transform ordinary lives into extraordinary lifestyles</p>
+              <p className='text-desc'>LifeUP Corporate Wellness designs corporate wellness programs that create the ‘a-ha!’ moments that transform ordinary lives into extraordinary lifestyles.</p>
               <Link to='/contact'>
                 <button className="btn yellow-btn" type="submit">contact now
                   <span className='home-icon'><GoArrowUpRight /></span>
@@ -295,16 +294,16 @@ const Services = () => {
             <div className='row conversationHealth-inner'>
               <div className='col-lg-8 col-md-12'>
                 <div className='conversationHealthBox'>
-                  <div className='img'><img src={Summits} alt='Summits'></img></div>
+                  <div className='img'><img src={Summits} alt='Summits' loading="lazy"></img></div>
                   <div className='text'>
                     <h4 class="h4-head">Summits and Conferences</h4>
                     <p className='text-desc'>We're available to conduct keynote speeches, workshop pillars,
                       health 'scavenger hunts',
-                      and friendly competition to keep events fun, effective and memorable</p>
+                      and friendly competition to keep events fun, effective and memorable.</p>
                   </div>
                 </div>
                 <div className='conversationHealthBox'>
-                  <div className='img'><img src={Facilitator} alt='Facilitator'></img></div>
+                  <div className='img'><img src={Facilitator} alt='Facilitator' loading="lazy"></img></div>
                   <div className='text'>
                     <h4 class="h4-head">Expert Facilitator & Consultant on Corporate Health & Wellness</h4>
                     <p className='text-desc'>Let Derek support you and your teams with establishing, elevating,
@@ -313,7 +312,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div className='conversationHealthBox'>
-                  <div className='img'><img src={Speaking} alt='Speaking '></img></div>
+                  <div className='img'><img src={Speaking} alt='Speaking' loading="lazy"></img></div>
                   <div className='text'>
                     <h4 class="h4-head">Speaking & Keynote</h4>
                     <p className='text-desc'>Have Derek come to and speak at your next Company Wellness Day or Promotional Health event.</p>
@@ -321,7 +320,8 @@ const Services = () => {
                 </div>
               </div>
               <div className='col-lg-4 col-md-12'>
-                <img src={conversationHealth} alt='conversationHealth' className='conversationHealthImg'>
+                <img src={conversationHealth} alt='conversationHealth' className='conversationHealthImg' loading="lazy"
+                >
                 </img>
               </div>
             </div>
@@ -339,7 +339,7 @@ const Services = () => {
             <div className='row ChallengesTop'>
               <div className='col-md-4'>
                 <div className='ChallengesBox'>
-                  <img src={IndividualPillars} alt='IndividualPillars'></img>
+                  <img src={IndividualPillars} alt='IndividualPillars' loading="lazy"></img>
                   <h4 class="h4-head">Individual Pillars</h4>
                   <p className='text-desc'>Each one of the aforementioned pillars can be conducted in conjunction with a company theme,
                     perfect for an already-set monthly topic.</p>
@@ -347,14 +347,14 @@ const Services = () => {
               </div>
               <div className='col-md-4'>
                 <div className='ChallengesBox'>
-                  <img src={Challenges} alt='Challenges'></img>
+                  <img src={Challenges} alt='Challenges' loading="lazy"></img>
                   <h4 class="h4-head">Challenges</h4>
                   <p className='text-desc'>30-day guided challenges can be done in conjunction with any pillar or as a stan- dalone offering, bringing the distinction the workshops to daily life.</p>
                 </div>
               </div>
               <div className='col-md-4'>
                 <div className='ChallengesBox'>
-                  <img src={ContinuedLearning} alt='ContinuedLearning'></img>
+                  <img src={ContinuedLearning} alt='ContinuedLearning' loading="lazy"></img>
                   <h4 class="h4-head">Continued Learning</h4>
                   <p className='text-desc'>Weekly or twice-weekly classes for compa- nies that want to offer their employees ongoing support with any of the pillar topics.</p>
                 </div>

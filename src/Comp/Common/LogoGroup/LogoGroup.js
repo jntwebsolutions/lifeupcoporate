@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo1 from "../../../Assests/img/logo1.webp";
 import Logo2 from "../../../Assests/img/logo2.webp";
-import Logo3 from "../../../Assests/img/logo3.jpg";
-import Logo4 from "../../../Assests/img/logo4.jpg";
+import Logo3 from "../../../Assests/img/logo3.webp";
+import Logo4 from "../../../Assests/img/logo4.webp";
 import "./LogoGroup.css";
 const LogoGroup = () => {
     return (

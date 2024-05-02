@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import footerLogo from "../../../Assests/img/footer-logo.png";
+import footerLogo from "../../../Assests/img/footer-logo.webp";
 import { FaFacebookF } from "react-icons/fa6";
 import { ImLinkedin2 } from "react-icons/im";
 import { GrYoutube } from "react-icons/gr";
@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className='row'>
                             <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='footer-logo'>
-                                    <Link to='/'><img src={footerLogo} alt='footerLogo'></img> </Link>
+                                    <Link to='/'><img src={footerLogo} alt='footerLogo' loading="lazy" ></img> </Link>
                                     <p>LifeUP Corporate Wellness designs corporate wellness programs that create the ‘a-ha!’
                                         moments that transform ordinary lives into extraordinary lifestyles
                                     </p>
@@ -64,7 +64,7 @@ const Footer = () => {
                                 <div className='footer-list footer-map'>
                                     <div class="responsive-map">
                                         <iframe loading="lazy" src="https://maps.google.com/maps?q=832%20N.%20La%20Brea%20Ave%20Los%20Angeles%20CA%2090038&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="832 N. La Brea Ave Los Angeles CA 90038"
-                                            aria-label="832 N. La Brea Ave Los Angeles CA 90038" allowfullscreen></iframe>
+                                            aria-label="832 N. La Brea Ave Los Angeles CA 90038" allowfullscreen  ></iframe>
                                     </div>
                                 </div>
                             </div>

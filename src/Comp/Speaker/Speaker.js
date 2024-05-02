@@ -1,21 +1,21 @@
 import React from 'react'
 import "./Speaker.css";
 import TopBanner from '../Common/TopBanner/TopBanner';
-import DiscussionTopicsDarrek from "../../Assests/img/DiscussionTopicsDereek.png";
+import DiscussionTopicsDarrek from "../../Assests/img/discussiontopicsdereek.webp";
 import { GoArrowUpRight } from "react-icons/go";
-import schedule from "../../Assests/img/schedule.png";
-import play from "../../Assests/img/play.png";
-import stress from "../../Assests/img/stressed.png";
-import Detoxification from "../../Assests/img/detoxification.png";
-import Exercise from "../../Assests/img/exercise.png";
-import rest from "../../Assests/img/rest.png";
-import instagram from "../../Assests/img/instagram.png";
-import email from "../../Assests/img/email.png";
-import podcast from "../../Assests/img/podcast.png";
-import monthly from "../../Assests/img/monthly.png";
-import facebook from "../../Assests/img/facebook.png";
-import linkdlin from "../../Assests/img/linkdlin.png";
-import summits from "../../Assests/img/Summits.png";
+import schedule from "../../Assests/img/schedule.webp";
+import play from "../../Assests/img/play.webp";
+import stress from "../../Assests/img/stressed.webp";
+import Detoxification from "../../Assests/img/detoxification.webp";
+import Exercise from "../../Assests/img/exercise.webp";
+import rest from "../../Assests/img/rest.webp";
+import instagram from "../../Assests/img/instagram.webp";
+import email from "../../Assests/img/email.webp";
+import podcast from "../../Assests/img/podcast.webp";
+import monthly from "../../Assests/img/monthly.webp";
+import facebook from "../../Assests/img/facebook.webp";
+import linkdlin from "../../Assests/img/linkdlin.webp";
+import summits from "../../Assests/img/summits.webp";
 import VideoTestimonial from "../Common/VideoTestimonial/VideoTestimonial";
 import WorkplaceWellness from '../Common/WorkplaceWellness/WorkplaceWellness';
 import ContactForm from '../Common/ContactForm/ContactForm';
@@ -74,44 +74,44 @@ const Speaker = () => {
                 <div className='DiscussionTopicsText'>
                   <h4 className="h4-head main-head">Derek Opperman</h4>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={schedule} alt='schedule'></img></div>
+                    <div className='img'><img src={schedule} alt='schedule' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>You have the time! How to weave health and wellbeing into an impossible schedule</p>
                     </div>
                   </div>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={play} alt='play'></img></div>
+                    <div className='img'><img src={play} alt='play' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>Nutrition - foundational foods that boost energy and performance</p>
                     </div>
                   </div>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={stress} alt='stress'></img></div>
+                    <div className='img'><img src={stress} alt='stress' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>Stress mitigation - practices to master yourself and your environment</p>
                     </div>
                   </div>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={Detoxification} alt='Detoxification'></img></div>
+                    <div className='img'><img src={Detoxification} alt='Detoxification' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>Detoxification strategies - cleaning up our bodies in a toxic world</p>
                     </div>
                   </div>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={Exercise} alt='Exercise'></img></div>
+                    <div className='img'><img src={Exercise} alt='Exercise' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>Exercise and movement - what type and how much is best for you</p>
                     </div>
                   </div>
                   <div className='DiscussionTopicsText-IconBox'>
-                    <div className='img'><img src={rest} alt='rest'></img></div>
+                    <div className='img'><img src={rest} alt='rest' loading="lazy"></img></div>
                     <div className='text'>
                       <p className='text-desc'>Why Rest and Recovery are the secret to peak performance</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='col-lg-6 col-md-12 col-sm-12'><img src={DiscussionTopicsDarrek} alt='DiscussionTopicsDarrek'></img></div>
+              <div className='col-lg-6 col-md-12 col-sm-12'><img src={DiscussionTopicsDarrek} alt='DiscussionTopicsDarrek' loading="lazy"></img></div>
             </div>
           </div>
         </section>
@@ -122,14 +122,14 @@ const Speaker = () => {
           <div className='container'>
             <div className='row'>
               <h4 className="h4-head main-head">join derek online</h4>
-              <div className='col-md-4'><img src={facebook} alt='facebook'></img></div>
-              <div className='col-md-4'><img src={linkdlin} alt='linkdlin'></img></div>
-              <div className='col-md-4'><img src={instagram} alt='instagram'></img></div>
+              <div className='col-md-4'><img src={facebook} alt='facebook' loading="lazy"></img></div>
+              <div className='col-md-4'><img src={linkdlin} alt='linkdlin' loading="lazy"></img></div>
+              <div className='col-md-4'><img src={instagram} alt='instagram' loading="lazy"></img></div>
             </div>
             <div className='row online-top'>
-              <div className='col-md-4'><img src={email} alt='email'></img></div>
-              <div className='col-md-4'><img src={podcast} alt='podcast'></img></div>
-              <div className='col-md-4'><img src={monthly} alt='monthly'></img></div>
+              <div className='col-md-4'><img src={email} alt='email' loading="lazy"></img></div>
+              <div className='col-md-4'><img src={podcast} alt='podcast' loading="lazy"></img></div>
+              <div className='col-md-4'><img src={monthly} alt='monthly' loading="lazy"></img></div>
             </div>
           </div>
         </section>
@@ -140,7 +140,7 @@ const Speaker = () => {
           <div className='container-fluid'>
             <div className='row'>
               <div className='col-lg-5 col-sm-12 col-md-12 podcastConferenceImg'>
-                <img src={summits} alt='summits'></img>
+                <img src={summits} alt='summits' loading="lazy"></img>
               </div>
               <div className='col-lg-7 col-sm-12 col-md-12 podcastConferenceImgtext'>
                 <h4 className="h4-head main-head">Do you have a podcast, conference, or live event coming up?</h4>

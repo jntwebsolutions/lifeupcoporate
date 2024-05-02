@@ -1,6 +1,6 @@
 import React  from 'react';
 import { Outlet, Link } from "react-router-dom";
-import logo from "../../../Assests/img/logo.png";
+import logo from "../../../Assests/img/logo.webp";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { TfiFacebook } from "react-icons/tfi";
 import { TfiLinkedin } from "react-icons/tfi";
@@ -42,7 +42,7 @@ const Navbar = () => {
             <div id='navbar'>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container navbar-inner">
-                        <div className='navbar-logo'><a class="navbar-brand" href="/"><img src={logo} alt='logo'></img></a></div>
+                        <div className='navbar-logo'><a class="navbar-brand" href="/"><img src={logo} alt='logo' loading="lazy" ></img></a></div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                             aria-label="Toggle navigation">

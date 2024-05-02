@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contact.css";
 import { Link } from 'react-router-dom';
-import ContactDarrek from "../../Assests/img/ContactDerrek.png";
+import ContactDarrek from "../../Assests/img/contactderrek.webp";
 import ContactForm from '../Common/ContactForm/ContactForm';
 import { BsFillTelephonePlusFill } from "react-icons/bs";
 import { GoArrowUpRight } from "react-icons/go";
@@ -28,7 +28,7 @@ const Contact = () => {
         <section id='getInTouch'>
           <div className='container'>
             <div className='row'>
-              <div className='col-lg-6 col-md-12 col-sm-12'><img src={ContactDarrek} alt='ContactDarrek'></img></div>
+              <div className='col-lg-6 col-md-12 col-sm-12'><img src={ContactDarrek} alt='ContactDarrek' loading="lazy"></img></div>
               <div className='col-lg-6 col-md-12 col-sm-12 getInTouch-inner'>
                 <h4 class="h4-head main-head">Get In Touch</h4>
                 <p class="text-desc">If you have any questions or inquiries about our Corporate Wellness Pro- grams or Health And Wellness Coach<br></br>

@@ -34,7 +34,7 @@ const VideoTestimonial = () => {
                                     <p class="text-desc">
                                         Derek helped me develop my 'keystone habits. Simple practices done daily
                                         that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
+                                        tech have kept 60lbs off for the last three years.</p>
 
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const VideoTestimonial = () => {
                                     <p class="text-desc">
                                         Derek helped me develop my 'keystone habits. Simple practices done daily
                                         that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
+                                        tech have kept 60lbs off for the last three years.</p>
 
                                 </div>
                             </div>  <div class='item'>
@@ -73,7 +73,7 @@ const VideoTestimonial = () => {
                                     <p class="text-desc">
                                         Derek helped me develop my 'keystone habits. Simple practices done daily
                                         that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
+                                        tech have kept 60lbs off for the last three years.</p>
 
                                 </div>
                             </div>  <div class='item'>
@@ -92,7 +92,7 @@ const VideoTestimonial = () => {
                                     <p class="text-desc">
                                         Derek helped me develop my 'keystone habits. Simple practices done daily
                                         that seemed almost inconsequential at the time..those, combined behavior tracking through wearable
-                                        tech have kept 60lbs off for the last three years</p>
+                                        tech have kept 60lbs off for the last three years.</p>
 
                                 </div>
                             </div>
